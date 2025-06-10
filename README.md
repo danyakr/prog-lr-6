@@ -5,9 +5,30 @@
 
 ![image](https://github.com/user-attachments/assets/a7227971-37d5-46fb-8a72-c1ff41f528c7)
 
-
-
-
+```
+fermat_factorization_project/
+│
+├── baseline/                  # Базовая (Python) версия
+│   ├── ferma_fact.py          # Исходный Python-код
+│   └── main.py                # Тестирование производительности
+│
+├── cython_version/            # Cython-версия
+│   ├── ferma_fact_cy.pyx      # Cython-реализация
+│   ├── setup.py               # Настройка компиляции Cython
+│   └── main_cy.py             # Запуск тестирования Cython
+│
+├── multiprocessing/           # Версия с параллелизацией
+│   ├── parallel_cy.py         # Параллельная Cython-версия
+│   └── parallel_py.py         # Параллельная Python-версия
+│
+├── nogil/                     # Версия с отключением GIL
+│   ├── ferma_fact_nogil.pyx   # Реализация с with nogil
+│   ├── setup_nogil.py         # setup.py для nogil-версии
+│   └── main_nogil.py          # Тестирование nogil
+│
+├── requirements.txt           # Необходимые библиотеки
+└── report/                    # Папка под графики
+```
 
 1
 ![image](https://github.com/user-attachments/assets/fc430bfd-e4c8-45e4-bb3e-accb3541809c)
