@@ -4,7 +4,7 @@ times = {
     'Baseline': 446.53,
     'Cython': 194.78,
     'Cython (Parallel)': 9.8,
-    'Cython (NoGIL)': 0.00296,
+    'Cython (NoGIL with threads)': 0.00296,
     'Python (Parallel)': 22.1
 }
 
